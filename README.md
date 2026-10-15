@@ -1,5 +1,4 @@
 # ECHO — Spatial Edge AI
-https://www.hackster.io/shalinireddyk666/echo-remembers-where-you-left-everything-332577
 Edge AI is making it possible for everyday spaces to become quietly aware — watching, remembering, and responding without ever sending anything to the cloud. ECHO is one small example of that idea in practice: running entirely on the Arduino UNO Q with Arduino App Lab, it watches a couple of zones and tracks objects moving between them using on-device AI. Ask it where something is, and it tells you the last zone it was seen in — no cloud, no recorded video, everything running locally on the board.
 ## How It Works
 
@@ -7,6 +6,8 @@ Edge AI is making it possible for everyday spaces to become quietly aware — wa
 - **Zone tracking** — checks each detected object's position against two defined zones (Desk, Drawer) using confirm/missing timers to filter out false triggers.
 - **Event logging** — every appearance/disappearance is written to a local SQLite database (`events.db`) as a structured event: object, event type, zone, confidence, timestamp. No images or video frames are ever stored.
 - **WebUI brick** — serves a live camera feed and an "Ask ECHO" panel where you can type a question like *"Where's my charger?"* and get back the object's current visibility and last known zone.
+- https://www.hackster.io/shalinireddyk666/echo-remembers-where-you-left-everything-332577
+
 
 ## Files
 
