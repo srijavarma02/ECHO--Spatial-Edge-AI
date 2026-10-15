@@ -1,5 +1,5 @@
 # ECHO — Spatial Edge AI
-Edge AI is making it possible for everyday spaces to become quietly aware — watching, remembering, and responding without ever sending anything to the cloud. ECHO is one small example of that idea in practice: running entirely on the Arduino UNO Q with Arduino App Lab, it watches a couple of zones and tracks objects moving between them using on-device AI. Ask it where something is, and it tells you the last zone it was seen in — no cloud, no recorded video, everything running locally on the board.
+Edge AI is making it possible for everyday spaces to become quietly aware — watching, remembering, and responding without ever sending anything to the cloud. ECHO is one small example of that idea in practice: running entirely on the Arduino UNO Q with Arduino App Lab, it watches a couple of zones and tracks objects moving between them using on-device AI. Ask it where something is, and it tells you the last zone it was seen in — no cloud, no recorded video, everything running locally on the board,
 ## How It Works
 
 - **VideoObjectDetection brick** — runs a built-in COCO-pretrained model on the camera feed, detecting objects on-device.
